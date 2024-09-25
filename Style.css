@@ -13,11 +13,13 @@ body {
 
 img {
     border-radius: 28px;
-    width: 100%
+    width: 100%;
+    margin-top: 48px;
+    object-fit: cover;
 }
 #page {
     background-color: #D9D9D9;
-    width: 800px;
+    width: 950px;
     box-sizing: border-box;
     padding: 24px;
     margin: 80px auto
@@ -55,6 +57,8 @@ header {
 p {
     font-size: 16px;
     font-style: italic;
+    line-height: 150%;
+    padding-top: 8px;
 }
 
 .divider {
@@ -65,4 +69,13 @@ p {
 }
 #Description-First-Img{
     text-align: center;
+}
+#final{
+    text-align: center;
+}
+
+footer{
+    color: #050504;
+    text-align: center;
+    padding-bottom: 48px;
 }
